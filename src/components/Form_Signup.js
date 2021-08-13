@@ -36,7 +36,7 @@ const Forms_Signup = () => {
           formData.append("userPassword", Information.password)
           
           
-          fetch("https://technova-app.herokuapp.com/user.php", {      
+          fetch("http://localhost/Technova/user.php", {      
             method: "POST",
             body: formData,
               headers: {
